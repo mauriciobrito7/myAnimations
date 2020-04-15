@@ -10,7 +10,7 @@ Puedes usar MyAnimations con CSS o con Sass (recomendable)
 
 - Descarga el archivo `my-animations.css` e incluyelo en tu proyecto. Luego puedes agregar las siguientes clases a los elementos que deseas que se animen:
 
-```
+```language-css
 .fade-in
 .fade-out
 .slide-left
@@ -35,7 +35,7 @@ Puedes usar MyAnimations con CSS o con Sass (recomendable)
 
 - Los mixins disponibles son:
 
-```
+```language-scss
 fadeIn($time)
 fadeOut($time)
 slideLeft($time)

@@ -1,0 +1,24 @@
+{
+  "name": "myanimations",
+  "version": "1.0.0",
+  "description": "Simple library for CSS Animations. Inpired in animate.css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciobrito7/myAnimations.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "animations"
+  ],
+  "author": "Mauricio Brito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauriciobrito7/myAnimations/issues"
+  },
+  "homepage": "https://github.com/mauriciobrito7/myAnimations#readme"
+}
