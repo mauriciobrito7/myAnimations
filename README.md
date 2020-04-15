@@ -31,7 +31,7 @@ Puedes usar MyAnimations con CSS o con Sass (recomendable)
 
 - Instale MyAnimations con el comando `npm install --save-dev my-animations`.
 - Importe `my-animations.scss` en su proyecto.
-- Establezca la variable `$myAnimationsHelpers: false` para compilar solo lo necesario.
+- Establezca la variable `$myAnimationsHelpers: false` para compilar solo lo necesario (debe de hacerlo antes importar my-animations).
 
 - Los mixins disponibles son:
 

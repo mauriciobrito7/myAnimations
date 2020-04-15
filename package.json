@@ -1,6 +1,6 @@
 {
     "name": "my-animations",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple library for CSS Animations. Inpired in animate.css",
     "main": "index.js",
     "scripts": {
