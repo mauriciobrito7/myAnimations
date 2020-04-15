@@ -1,0 +1,63 @@
+@if $myAnimationsHelpers==true {
+    $time: 1s;
+    // Fade
+    .fadein,
+    .fade-in {
+        @include fadeIn($time);
+    }
+    .fadeout,
+    .fade-out {
+        @include fadeOut($time);
+    }
+    // Slide
+    .slideLeft,
+    .slide-left {
+        @include slideLeft($time);
+    }
+    .slideRight,
+    .slide-right {
+        @include slideRight($time);
+    }
+    .slideTop,
+    .slide-top {
+        @include slideTop($time);
+    }
+    .slideBottom,
+    .slide-bottom {
+        @include slideBottom($time);
+    }
+    .slideDown,
+    .slide-down {
+        @include slideDown($time, 1000px);
+    }
+    .slideUp,
+    .slide-up {
+        @include slideUp($time, 1000px);
+    }
+    // Zoom
+    .zoomin,
+    .zoom-in {
+        @include zoomIn($time);
+    }
+    .zoomout,
+    .zoom-out {
+        @include zoomOut($time);
+    }
+    // Bounce
+    .bounceTop,
+    .bounce-top {
+        @include bounceTop($time);
+    }
+    .bounceright,
+    .bounce-right {
+        @include bounceRight($time);
+    }
+    .bounceleft,
+    .bounce-left {
+        @include bounceLeft($time);
+    }
+    .bouncebottom,
+    .bounce-bottom {
+        @include bounceBottom($time);
+    }
+}

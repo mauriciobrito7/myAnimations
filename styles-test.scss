@@ -1,0 +1,87 @@
+// Use this file for testing animations
+// Animations
+@import "./my-animations.scss";
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.animations {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: salmon;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    &-fade__in {
+        background-color: seagreen;
+        @include fadeIn(1s);
+    }
+    &-fade__out {
+        background-color: steelblue;
+        @include fadeOut(1s);
+    }
+    &-slide__left {
+        background-color: springgreen;
+        @include slideLeft(1s);
+    }
+    &-slide__right {
+        background-color: violet;
+        @include slideRight(1s);
+    }
+    &-slide__top {
+        background-color: wheat;
+        @include slideTop(1s);
+    }
+    &-slide__bottom {
+        background-color: thistle;
+        @include slideBottom(1s);
+    }
+    &-slide__down {
+        background-color: yellowgreen;
+        @include slideDown(1s, 300px);
+    }
+    &-slide__up {
+        background-color: turquoise;
+        @include slideUp(1s, 300px);
+    }
+    &-zoom__in {
+        background: tomato;
+        @include zoomIn(1s);
+    }
+    &-zoom__out {
+        background: steelblue;
+        @include zoomOut(1s);
+    }
+    &-bounce__left {
+        background: slateblue;
+        border-radius: 50%;
+        @include bounceLeft(1s);
+    }
+    &-bounce__right {
+        background: sienna;
+        border-radius: 50%;
+        @include bounceRight(1s);
+    }
+    &-bounce__up {
+        background: sandybrown;
+        border-radius: 50%;
+        @include bounceTop(1s);
+    }
+    &-bounce__down {
+        background: saddlebrown;
+        border-radius: 50%;
+        @include bounceBottom(1s);
+    }
+}

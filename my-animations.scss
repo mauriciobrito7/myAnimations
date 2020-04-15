@@ -1,0 +1,8 @@
+// Define is helpers will be rendered
+$myAnimationsHelpers: true !default;
+// myAnimations partials
+@import "./src/scss/animations/zoom";
+@import "./src/scss/animations/fade";
+@import "./src/scss/animations/slide";
+@import "./src/scss/animations/bounce";
+@import "./src/scss/animations/my-animations-helpers";

@@ -1,0 +1,519 @@
+.fadein,
+.fade-in {
+  -webkit-animation: fadein 1s forwards;
+          animation: fadein 1s forwards;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeout,
+.fade-out {
+  -webkit-animation: fadeout 1s forwards;
+          animation: fadeout 1s forwards;
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.slideLeft,
+.slide-left {
+  -webkit-animation: slideLeft 1s;
+          animation: slideLeft 1s;
+}
+
+@-webkit-keyframes slideLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.slideRight,
+.slide-right {
+  -webkit-animation: slideRight 1s;
+          animation: slideRight 1s;
+}
+
+@-webkit-keyframes slideRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+.slideTop,
+.slide-top {
+  -webkit-animation: slideTop 1s;
+          animation: slideTop 1s;
+}
+
+@-webkit-keyframes slideTop {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes slideTop {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+.slideBottom,
+.slide-bottom {
+  -webkit-animation: slideBottom 1s;
+          animation: slideBottom 1s;
+}
+
+@-webkit-keyframes slideBottom {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes slideBottom {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+.slideDown,
+.slide-down {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-animation: slideDown 1s forwards;
+          animation: slideDown 1s forwards;
+}
+
+@-webkit-keyframes slideDown {
+  to {
+    max-height: 1000px;
+  }
+}
+
+@keyframes slideDown {
+  to {
+    max-height: 1000px;
+  }
+}
+
+.slideUp,
+.slide-up {
+  max-height: 1000px;
+  overflow: hidden;
+  -webkit-animation: slideUp 1s forwards;
+          animation: slideUp 1s forwards;
+}
+
+@-webkit-keyframes slideUp {
+  to {
+    max-height: 0;
+  }
+}
+
+@keyframes slideUp {
+  to {
+    max-height: 0;
+  }
+}
+
+.zoomin,
+.zoom-in {
+  -webkit-animation: zoomIn 1s;
+          animation: zoomIn 1s;
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    -webkit-transform: scale3d(0, 0, 0);
+            transform: scale3d(0, 0, 0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    -webkit-transform: scale3d(0, 0, 0);
+            transform: scale3d(0, 0, 0);
+  }
+}
+
+.zoomout,
+.zoom-out {
+  -webkit-animation: zoomOut 1s;
+          animation: zoomOut 1s;
+}
+
+@-webkit-keyframes zoomOut {
+  to {
+    -webkit-transform: scale3d(0, 0, 0);
+            transform: scale3d(0, 0, 0);
+  }
+}
+
+@keyframes zoomOut {
+  to {
+    -webkit-transform: scale3d(0, 0, 0);
+            transform: scale3d(0, 0, 0);
+  }
+}
+
+.bounceTop,
+.bounce-top {
+  -webkit-animation: bounceTop 1s cubic-bezier(0.14, 0.45, 0.87, 0.95);
+          animation: bounceTop 1s cubic-bezier(0.14, 0.45, 0.87, 0.95);
+}
+
+@-webkit-keyframes bounceTop {
+  to {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes bounceTop {
+  to {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+.bounceright,
+.bounce-right {
+  -webkit-animation: bounceRight 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+          animation: bounceRight 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+}
+
+@-webkit-keyframes bounceRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes bounceRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+.bounceleft,
+.bounce-left {
+  -webkit-animation: bounceLeft 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+          animation: bounceLeft 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+}
+
+@-webkit-keyframes bounceLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes bounceLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.bouncebottom,
+.bounce-bottom {
+  -webkit-animation: bounceBottom 1s cubic-bezier(0.14, 0.45, 0.57, 1.07);
+          animation: bounceBottom 1s cubic-bezier(0.14, 0.45, 0.57, 1.07);
+}
+
+@-webkit-keyframes bounceBottom {
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes bounceBottom {
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.animations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box {
+  background: salmon;
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-weight: 500;
+}
+
+.box-fade__in {
+  background-color: seagreen;
+  -webkit-animation: fadein 1s forwards;
+          animation: fadein 1s forwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.box-fade__out {
+  background-color: steelblue;
+  -webkit-animation: fadeout 1s forwards;
+          animation: fadeout 1s forwards;
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.box-slide__left {
+  background-color: springgreen;
+  -webkit-animation: slideLeft 1s;
+          animation: slideLeft 1s;
+}
+
+@keyframes slideLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.box-slide__right {
+  background-color: violet;
+  -webkit-animation: slideRight 1s;
+          animation: slideRight 1s;
+}
+
+@keyframes slideRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+.box-slide__top {
+  background-color: wheat;
+  -webkit-animation: slideTop 1s;
+          animation: slideTop 1s;
+}
+
+@keyframes slideTop {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+.box-slide__bottom {
+  background-color: thistle;
+  -webkit-animation: slideBottom 1s;
+          animation: slideBottom 1s;
+}
+
+@keyframes slideBottom {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+.box-slide__down {
+  background-color: yellowgreen;
+  overflow: hidden;
+  max-height: 0;
+  -webkit-animation: slideDown 1s forwards;
+          animation: slideDown 1s forwards;
+}
+
+@keyframes slideDown {
+  to {
+    max-height: 300px;
+  }
+}
+
+.box-slide__up {
+  background-color: turquoise;
+  max-height: 300px;
+  overflow: hidden;
+  -webkit-animation: slideUp 1s forwards;
+          animation: slideUp 1s forwards;
+}
+
+@keyframes slideUp {
+  to {
+    max-height: 0;
+  }
+}
+
+.box-zoom__in {
+  background: tomato;
+  -webkit-animation: zoomIn 1s;
+          animation: zoomIn 1s;
+}
+
+@keyframes zoomIn {
+  from {
+    -webkit-transform: scale3d(0, 0, 0);
+            transform: scale3d(0, 0, 0);
+  }
+}
+
+.box-zoom__out {
+  background: steelblue;
+  -webkit-animation: zoomOut 1s;
+          animation: zoomOut 1s;
+}
+
+@keyframes zoomOut {
+  to {
+    -webkit-transform: scale3d(0, 0, 0);
+            transform: scale3d(0, 0, 0);
+  }
+}
+
+.box-bounce__left {
+  background: slateblue;
+  border-radius: 50%;
+  -webkit-animation: bounceLeft 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+          animation: bounceLeft 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+}
+
+@keyframes bounceLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.box-bounce__right {
+  background: sienna;
+  border-radius: 50%;
+  -webkit-animation: bounceRight 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+          animation: bounceRight 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+}
+
+@keyframes bounceRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+.box-bounce__up {
+  background: sandybrown;
+  border-radius: 50%;
+  -webkit-animation: bounceTop 1s cubic-bezier(0.14, 0.45, 0.87, 0.95);
+          animation: bounceTop 1s cubic-bezier(0.14, 0.45, 0.87, 0.95);
+}
+
+@keyframes bounceTop {
+  to {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+.box-bounce__down {
+  background: saddlebrown;
+  border-radius: 50%;
+  -webkit-animation: bounceBottom 1s cubic-bezier(0.14, 0.45, 0.57, 1.07);
+          animation: bounceBottom 1s cubic-bezier(0.14, 0.45, 0.57, 1.07);
+}
+
+@keyframes bounceBottom {
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+/*# sourceMappingURL=styles-test.css.map */

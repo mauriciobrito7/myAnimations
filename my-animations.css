@@ -1,0 +1,288 @@
+.fadein,
+.fade-in {
+  -webkit-animation: fadein 1s forwards;
+          animation: fadein 1s forwards;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeout,
+.fade-out {
+  -webkit-animation: fadeout 1s forwards;
+          animation: fadeout 1s forwards;
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.slideLeft,
+.slide-left {
+  -webkit-animation: slideLeft 1s;
+          animation: slideLeft 1s;
+}
+
+@-webkit-keyframes slideLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.slideRight,
+.slide-right {
+  -webkit-animation: slideRight 1s;
+          animation: slideRight 1s;
+}
+
+@-webkit-keyframes slideRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+.slideTop,
+.slide-top {
+  -webkit-animation: slideTop 1s;
+          animation: slideTop 1s;
+}
+
+@-webkit-keyframes slideTop {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes slideTop {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+.slideBottom,
+.slide-bottom {
+  -webkit-animation: slideBottom 1s;
+          animation: slideBottom 1s;
+}
+
+@-webkit-keyframes slideBottom {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes slideBottom {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+.slideDown,
+.slide-down {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-animation: slideDown 1s forwards;
+          animation: slideDown 1s forwards;
+}
+
+@-webkit-keyframes slideDown {
+  to {
+    max-height: 1000px;
+  }
+}
+
+@keyframes slideDown {
+  to {
+    max-height: 1000px;
+  }
+}
+
+.slideUp,
+.slide-up {
+  max-height: 1000px;
+  overflow: hidden;
+  -webkit-animation: slideUp 1s forwards;
+          animation: slideUp 1s forwards;
+}
+
+@-webkit-keyframes slideUp {
+  to {
+    max-height: 0;
+  }
+}
+
+@keyframes slideUp {
+  to {
+    max-height: 0;
+  }
+}
+
+.zoomin,
+.zoom-in {
+  -webkit-animation: zoomIn 1s;
+          animation: zoomIn 1s;
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    -webkit-transform: scale3d(0, 0, 0);
+            transform: scale3d(0, 0, 0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    -webkit-transform: scale3d(0, 0, 0);
+            transform: scale3d(0, 0, 0);
+  }
+}
+
+.zoomout,
+.zoom-out {
+  -webkit-animation: zoomOut 1s;
+          animation: zoomOut 1s;
+}
+
+@-webkit-keyframes zoomOut {
+  to {
+    -webkit-transform: scale3d(0, 0, 0);
+            transform: scale3d(0, 0, 0);
+  }
+}
+
+@keyframes zoomOut {
+  to {
+    -webkit-transform: scale3d(0, 0, 0);
+            transform: scale3d(0, 0, 0);
+  }
+}
+
+.bounceTop,
+.bounce-top {
+  -webkit-animation: bounceTop 1s cubic-bezier(0.14, 0.45, 0.87, 0.95);
+          animation: bounceTop 1s cubic-bezier(0.14, 0.45, 0.87, 0.95);
+}
+
+@-webkit-keyframes bounceTop {
+  to {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes bounceTop {
+  to {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+.bounceright,
+.bounce-right {
+  -webkit-animation: bounceRight 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+          animation: bounceRight 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+}
+
+@-webkit-keyframes bounceRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes bounceRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+.bounceleft,
+.bounce-left {
+  -webkit-animation: bounceLeft 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+          animation: bounceLeft 1s cubic-bezier(0.17, 0.67, 0.77, 1.28);
+}
+
+@-webkit-keyframes bounceLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes bounceLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.bouncebottom,
+.bounce-bottom {
+  -webkit-animation: bounceBottom 1s cubic-bezier(0.14, 0.45, 0.57, 1.07);
+          animation: bounceBottom 1s cubic-bezier(0.14, 0.45, 0.57, 1.07);
+}
+
+@-webkit-keyframes bounceBottom {
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes bounceBottom {
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+/*# sourceMappingURL=my-animations.css.map */

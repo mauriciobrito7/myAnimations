@@ -1,0 +1,39 @@
+// Bounce Left
+@mixin bounceLeft($time) {
+    animation: bounceLeft $time cubic-bezier(0.17, 0.67, 0.77, 1.28);
+    @keyframes bounceLeft {
+        from {
+            transform: translate3d(-100%, 0, 0);
+        }
+    }
+}
+
+// Bounce Right
+@mixin bounceRight($time) {
+    animation: bounceRight $time cubic-bezier(0.17, 0.67, 0.77, 1.28);
+    @keyframes bounceRight {
+        from {
+            transform: translate3d(100%, 0, 0);
+        }
+    }
+}
+
+// Bounce Up
+@mixin bounceTop($time) {
+    animation: bounceTop $time cubic-bezier(0.14, 0.45, 0.87, 0.95);
+    @keyframes bounceTop {
+        to {
+            transform: translate3d(0, -100%, 0);
+        }
+    }
+}
+
+// Bounce Bottom
+@mixin bounceBottom($time) {
+    animation: bounceBottom $time cubic-bezier(0.14, 0.45, 0.57, 1.07);
+    @keyframes bounceBottom {
+        to {
+            transform: translate3d(0, 100%, 0);
+        }
+    }
+}
