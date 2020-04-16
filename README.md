@@ -23,14 +23,14 @@ Puedes usar MyAnimations con CSS o con Sass (recomendable)
 .zoom-out
 .bounce-left
 .bounce-right
-.bounce-top
-.bounce-bottom
+.bounce-up
+.bounce-down
 ```
 
 ### Con Sass
 
 - Instale MyAnimations con el comando `npm install --save-dev my-animations`.
-- Importe `my-animations.scss` en su proyecto.
+- Importe `my-animations.scss` en su proyecto `@import "./node_modules/my-animations/my-animations.scss"`.
 - Establezca la variable `$myAnimationsHelpers: false` para compilar solo lo necesario (debe de hacerlo antes importar my-animations).
 
 - Los mixins disponibles son:
@@ -48,6 +48,6 @@ zoomIn($time)
 zoomOut($time)
 bounceLeft($time)
 bounceRight($time)
-bounceTop($time)
-bounceBottom($time)
+bounceUp($time)
+bounceDown($time)
 ```

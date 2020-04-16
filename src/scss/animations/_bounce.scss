@@ -19,19 +19,19 @@
 }
 
 // Bounce Up
-@mixin bounceTop($time) {
-    animation: bounceTop $time cubic-bezier(0.14, 0.45, 0.87, 0.95);
-    @keyframes bounceTop {
+@mixin bounceUp($time) {
+    animation: bounceUp $time cubic-bezier(0.14, 0.45, 0.87, 0.95);
+    @keyframes bounceUp {
         to {
             transform: translate3d(0, -100%, 0);
         }
     }
 }
 
-// Bounce Bottom
-@mixin bounceBottom($time) {
-    animation: bounceBottom $time cubic-bezier(0.14, 0.45, 0.57, 1.07);
-    @keyframes bounceBottom {
+// Bounce Down
+@mixin bounceDown($time) {
+    animation: bounceDown $time cubic-bezier(0.14, 0.45, 0.57, 1.07);
+    @keyframes bounceDown {
         to {
             transform: translate3d(0, 100%, 0);
         }

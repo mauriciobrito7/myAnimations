@@ -5,7 +5,7 @@
     .fade-in {
         @include fadeIn($time);
     }
-    .fadeout,
+    .fadeOut,
     .fade-out {
         @include fadeOut($time);
     }
@@ -35,18 +35,18 @@
         @include slideUp($time, 1000px);
     }
     // Zoom
-    .zoomin,
+    .zoomIn,
     .zoom-in {
         @include zoomIn($time);
     }
-    .zoomout,
+    .zoomOut,
     .zoom-out {
         @include zoomOut($time);
     }
     // Bounce
-    .bounceTop,
-    .bounce-top {
-        @include bounceTop($time);
+    .bounceUp,
+    .bounce-up {
+        @include bounceUp($time);
     }
     .bounceright,
     .bounce-right {
@@ -56,8 +56,8 @@
     .bounce-left {
         @include bounceLeft($time);
     }
-    .bouncebottom,
-    .bounce-bottom {
+    .bounceDown,
+    .bounce-down {
         @include bounceBottom($time);
     }
 }
